@@ -1,3 +1,4 @@
+
 header{
     background-color: rgb(11, 11, 105);
     color: white;
@@ -11,4 +12,9 @@ body{
 }
 #titulo{
     font-size: 50px;
+}
+#links{
+    background-color: white;
+    border: black solid 10px;
+
 }
