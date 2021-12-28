@@ -51,7 +51,41 @@
                 <label for="Calendario">
                     <span>Hora</span>
                     <input type="datetime-local" id="Calendario" name="Calendario">
-                </label>
+            </label>
+                <br> <br> <br><br>
+                <label for="nombre">
+                    <span>Este campo es obligatorio Introduce tu nombre</span>
+                    <input type="text" id="nombre" name="nombre" required>
+            </label>
+                <br><br><br>
+            <label for="correo">
+                    <span>este campo se autocompletará y es el correo</span>
+                    <input type="email" id="correo" name="correo" autocomplete="email" required>
+            </label>
+            <br><br><br>
+            <label for="">
+                    <span>este campo tiene multiples opciones</span>
+                <select name="cursos" id="">
+                    <option value="javascript">javascript</option>
+                    <option value="html">html</option>
+                    <option value="diseño">diseño</option>
+                    <option value="fotografia">fotografia</option>
+                </select>
+            </label>
+            <br><br>
+            <label for="">
+                <span>Aqui se puede buscar entre una lista</span>
+                <input list="Cursos">
+                <datalist id="Cursos">
+                    <option value="javascript">javascript</option>
+                    <option value="html">html</option>
+                    <option value="diseño">diseño</option>
+                    <option value="fotografia">fotografia</option>
+                </datalist>
+            </label>
+
+
+
         </form>
 
     </main>
