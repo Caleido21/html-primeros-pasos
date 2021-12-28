@@ -1,3 +1,32 @@
+/*css significa cascading style sheets (cascading es el algoritmo que usa el navegador
+para darle estilo a las paginas)y como dije antes, este lenguaje se usa para dar estilo a las paginas web
+se enlaza desde el documento html con la etiqueta <link rel="stylesheets" href="Ubicación_del_archivo">  
+Se le da estilo a las paginas web usando las etiquetas de html como identificadores por ejemplo:
+para darle un color de fondo a los h1 se escribe la etiqueta seguida de unos corchetes, y lo que esté 
+dentro de estos sera el que se vea afectado
+ej:
+h1{
+    background-color:"color_deseado";
+}
+como nota extra, css puede leer varios tipos de codigos de color, por ejemplo el codigo hexadecimal(#xxxxxx),
+ el codigo rgb"(rgb(xxx,xxx,xxx) y las etiquetas con el nombre del color (black, white, yellow etc.
+ 
+ 
+ si quieres darle estilo a una etiqueta pero que otra igual no se vea afectada se puede hacer con
+ dos atributos de html, uno es el atributo (id="value") que se aplica especialmente cuando quieres que se vea afectado
+ solo un elemento y se selecciona anteponiendo un hashtag seguido de el valor ej: 
+
+ #ejemplodeid{
+        
+     }
+
+cuando quieras aplicar los estilos a varios elementos del mismo tipo se usa con el atributo
+(class="value") y se usa anteponiendo un punto seguido del valor usado ejemplo:
+.ejemplodeclass{
+    
+     }
+*/
+
 
 header{
     background-color: rgb(11, 11, 105);
