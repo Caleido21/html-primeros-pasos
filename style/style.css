@@ -25,8 +25,44 @@ cuando quieras aplicar los estilos a varios elementos del mismo tipo se usa con 
 .ejemplodeclass{
     
      }
-*/
+     tambien existen las pseudoclases, que son comportamientos que tienen los css bajo ciertas circunstancias
+     se usan dando la pseudoclase despues de la etiqueta seleccionada y presediendolo con dos puntos, ejemplo:
+     h1:hover{
+         background-color:red;
+     }
+     esto haria que al pasar el cursor sobre la etiqueta con el hover, el fondo se haga de color rojo
+     #13a4a4 guardar este color para panchis
+     
+     tambien existen los pseudoelementos los cuales se usan de forma similar pero hacen cosas diferentes, se 
+     en lugar de unos ":" se usan "::" las pseudoclases basicamente definen el estado y los pseudoelementos definen partes especificas
 
+     Como controlar css:
+     cuando dos estilos se sobreponen el navegador los va a manipular en orden de importancia y van así
+     el navegador tiene estilos por defecto, pero siempre se le dará prioridad a los estilos dados por el usuario
+     y encima de ese solo esta la etiqueta !important siempre estarán encima de los otros dos, pero usar esta etiqueta
+     es una mala practica y señal de que perdiste el control de tus estilos
+
+    hay etiquetas para darles prioridad
+    y el orden de prioridad de mayor a menor es 
+    1-!important
+    2-Inline Styles(los que se le dan desde html en la etiqueta style)
+    3-#id
+    4-class
+    5-tag(la llamada a las etiquetas de html de manera generica
+
+    si se mezclan el #id y los .class tendran mas prioridad que cualquiera de los dos por separado
+
+    si aun con todo eso sigue habiedo un conflicto, el navegdor tomara como ultima opcion 
+    y definitiva, usara la linea que vaya mas abajo en el codigo, por asi decirlo
+    toma los ultimos que leyó
+
+    
+         */
+*{
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+}
 
 header{
     background-color: rgb(11, 11, 105);
@@ -39,7 +75,7 @@ body{
     color: white;
     text-align: center;
 }
-#titulo{
+#titulo:hover{
     font-size: 50px;
 }
 #links{
