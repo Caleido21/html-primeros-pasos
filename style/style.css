@@ -45,8 +45,7 @@ cuando quieras aplicar los estilos a varios elementos del mismo tipo se usa con 
     hay etiquetas para darles prioridad
     y el orden de prioridad de mayor a menor es 
     1-!important
-    2-Inline Styles(los que se le dan desde html en la etiqueta style)
-    3-#id
+    2-Inline Styles(los que se le dan desde html en el atributo 
     4-class
     5-tag(la llamada a las etiquetas de html de manera generica
 
@@ -56,7 +55,7 @@ cuando quieras aplicar los estilos a varios elementos del mismo tipo se usa con 
     y definitiva, usara la linea que vaya mas abajo en el codigo, por asi decirlo
     toma los ultimos que leyó
 
-    
+
          */
 *{
 box-sizing: border-box;
