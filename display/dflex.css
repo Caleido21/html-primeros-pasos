@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    color: #333;
+}
+.container{
+    width: 90%;
+    height: 90%;
+    border: 0.3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    /*flex-wrap:wrap; es para que los elementos se muevan de lugar con la pantalla
+    justify-content:center es para centrar el contenido
+    se puede usar con space-arround para generar un espacio entre los elementos
+    y flex start/end para mandarlos de derecha a izquierda o viceversa
+    */
+}
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: blueviolet;
+}
+.box3{
+    background-color: brown;
+}
+.box4{
+    background-color: burlywood;
+}
+.box5{
+    background-color: chartreuse;
+}
+.box6{
+    background-color: crimson;
+}
+.box7{
+    background-color: darkblue;
+}

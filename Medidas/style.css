@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    border: black solid 1px;
+}
+body{
+    background-color: blue;
+    
+}
+main{
+    background-color: lightblue;
+}
+section{
+    background-color: green;
+}
+h1{
+    background-color: greenyellow;
+}
+p{
+    background-color: grey;
+}
